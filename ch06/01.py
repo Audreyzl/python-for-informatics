@@ -17,7 +17,7 @@ word = "python"
 def backwards(word):
     index = len(word) - 1  # adjust for 0th index
     while index >= 0:
-        print word[index]
+        print (word[index])
         index -= 1
 
 backwards(word)
